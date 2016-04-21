@@ -1,8 +1,13 @@
-{
+{	
+	"name": "xmlout",
+	"version": "0.0.1",
 	"dependencies": 
 	{
 		"sqlite3": "*",
 		"commander": "*",
 		"mkdir-p": "*"
-	}
+	},
+	"bin": {
+    	"xmlout": "./xmlout.js"
+  	}
 }
