@@ -11,8 +11,8 @@ var mkdirP = require( 'mkdir-p' );
 
 program
 .version( '0.0.1' )
-.option( '-o, --output [path]', 'output foder (defaults to output)' )
-.arguments( '<input>' )
+.option( '-o, --output [path]', 'output folder (defaults to output)' )
+.arguments( '<input.blurb>' )
 .action( (input) => {
 	
 	if (typeof program.output === 'undefined') 
