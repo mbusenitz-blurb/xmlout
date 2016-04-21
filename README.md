@@ -1,11 +1,11 @@
 # xmlout
 
-### installation
-
 Simple tool to extract xml from a blurb file
 
+### installation
+
 `git clone https://github.com/mbusenitz-blurb/xmlout.git`    
-`npm install -g xmlout/`
+`npm install -g xmlout/`  
 
 ### usage
 ```
