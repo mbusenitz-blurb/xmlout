@@ -8,7 +8,6 @@ var path = require( 'path' )
 var program = require( 'commander' )
 var mkdirP = require( 'mkdir-p' );
 
-
 program
 .version( '0.0.1' )
 .option( '-o, --output [path]', 'output folder (defaults to output)' )
@@ -36,7 +35,7 @@ program
 
 					console.log( row.filepath ); 
 
-					fs.writeFile( path.join( 'output', row.filepath ), row.filecontent, (err) => {
+					fs.writeFile( path.join( program.output, row.filepath ), row.filecontent, (err) => {
 						if (err) throw err;
 					} );
 				});  
